@@ -38,23 +38,24 @@ const Navbar = () => {
   ];
 
   return (
-    <AppBar position="static" color="default">
+    <AppBar position="static" className="shadow-none py-4" color="transparent">
       {isMobile ? (
         <>
           <IconButton edge="start" color="inherit" aria-label="menu" onClick={toggleDrawer(true)}>
-            <MenuIcon />
+            <MenuIcon className="text-white" />
           </IconButton>
           <Drawer anchor="left" open={drawerOpen} onClose={toggleDrawer(false)}>
             <Box
-              sx={{ width: 250 }}
+              sx={{ width: 250, height: '100%'}}
               role="presentation"
               onClick={toggleDrawer(false)}
               onKeyDown={toggleDrawer(false)}
+              className="bg-gray-900 text-white"
             >
               <List>
                 {menuItems.map((item) => (
                   <ListItem button key={item.value} component={Link} href={item.href}>
-                    <ListItemText primary={item.label} />
+                    <ListItemText primary={item.label} className={`text-white ${activeTab === item.value ? 'text-[#9333ea]' : ''}`} />
                   </ListItem>
                 ))}
               </List>
@@ -66,9 +67,11 @@ const Navbar = () => {
           value={activeTab}
           onChange={handleChange}
           indicatorColor="primary"
-          textColor="primary"
+          textColor="inherit"
           variant="fullWidth"
           centered
+          className="text-white"
+          TabIndicatorProps={{ style: { backgroundColor: '#9333ea' } }}
         >
           {menuItems.map((item) => (
             <Tab
@@ -77,6 +80,7 @@ const Navbar = () => {
               value={item.value}
               component={Link}
               href={item.href}
+              className={`text-white ${activeTab === item.value ? 'text-[#9333ea]' : ''}`}
             />
           ))}
         </Tabs>

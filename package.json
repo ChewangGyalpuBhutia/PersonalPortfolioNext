@@ -12,10 +12,12 @@
     "@emotion/react": "^11.13.5",
     "@emotion/styled": "^11.13.5",
     "@mui/icons-material": "^6.1.9",
+    "@mui/lab": "6.0.0-beta.17",
     "@mui/material": "^6.1.9",
     "next": "15.0.0",
     "react": "19.0.0-rc-65a56d0e-20241020",
-    "react-dom": "19.0.0-rc-65a56d0e-20241020"
+    "react-dom": "19.0.0-rc-65a56d0e-20241020",
+    "react-multi-carousel": "^2.8.5"
   },
   "devDependencies": {
     "@types/node": "^20",
