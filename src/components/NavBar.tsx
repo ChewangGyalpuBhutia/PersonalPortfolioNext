@@ -54,7 +54,7 @@ const Navbar = () => {
             >
               <List>
                 {menuItems.map((item) => (
-                  <ListItem button key={item.value} component={Link} href={item.href}>
+                  <ListItem key={item.value} component={Link} href={item.href}>
                     <ListItemText primary={item.label} className={`text-white ${activeTab === item.value ? 'text-[#9333ea]' : ''}`} />
                   </ListItem>
                 ))}

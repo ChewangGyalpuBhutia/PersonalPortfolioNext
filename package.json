@@ -1,6 +1,6 @@
 {
   "name": "rental-app",
-  "homepage": "https://github.com/ChewangGyalpuBhutia",
+  "homepage": "https://github.com/ChewangGyalpuBhutia/PersonalPortfolioNext",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,7 +9,7 @@
     "start": "next start",
     "lint": "next lint",
     "predeploy": "pnpm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d out"
   },
   "dependencies": {
     "@emotion/react": "^11.13.5",

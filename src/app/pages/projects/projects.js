@@ -142,7 +142,7 @@ export const Projects = [
 
     },
     {
-        id: 8,
+        id: 7,
         title: "React Native Video Application",
         agenda: "Video Streaming Application",
         date: "November 2023 to December 2023",
@@ -156,10 +156,10 @@ export const Projects = [
             "CSS",
         ],
         github: "https://github.com/ChewangGyalpuBhutia/VideoCallApplication",
-        website: projImg2,
+        // website: projImg2,
     },
     {
-        id: 9,
+        id: 8,
         title: "To-Do Application (React Native)",
         agenda: "Task Management Application",
         date: "October 2023",
@@ -174,7 +174,7 @@ export const Projects = [
         github: "https://github.com/ChewangGyalpuBhutia/ToDoApp.git",
     },
     {
-        id: 10,
+        id: 9,
         title: "To-Do Application (React, Express, MongoDB)",
         agenda: "Full-Stack Task Management",
         date: "August 2024 to September 2024",
