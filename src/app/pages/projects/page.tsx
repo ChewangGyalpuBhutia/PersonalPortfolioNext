@@ -46,7 +46,7 @@ const ProjectCard: React.FC<Project> = ({ id, title, agenda, date, description, 
   );
 };
 
-const ProjectPage: React.FC = () => {
+export default function PorjectsPage() {
   return (
     <div className="min-h-screen flex flex-col">
       <Navbar />
@@ -69,5 +69,3 @@ const ProjectPage: React.FC = () => {
     </div>
   );
 };
-
-export default ProjectPage;

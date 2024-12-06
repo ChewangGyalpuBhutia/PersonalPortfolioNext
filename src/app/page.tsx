@@ -4,6 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import Navbar from '@/components/NavBar';
 import headerImg from '../../public/chewang.png';
+import "./globals.css";
 
 export default function Home() {
   const [loopNum, setLoopNum] = useState(0);
@@ -67,7 +68,7 @@ export default function Home() {
           </div>
           <div className="w-full md:w-1/2 mt-8 md:mt-0">
             <div className="animate__animated animate__zoomIn animate-move-up-down">
-              <Image src={headerImg} alt="Chewang Gyalpu Bhutia" className="w-full h-auto max-w-xs mx-auto md:max-w-sm lg:max-w-md animate-float" />
+              <Image src="./chewang.png" alt="Chewang Gyalpu Bhutia" className="w-full h-auto max-w-xs mx-auto md:max-w-sm lg:max-w-md animate-float" width={70} height={70}/>
             </div>
           </div>
         </div>

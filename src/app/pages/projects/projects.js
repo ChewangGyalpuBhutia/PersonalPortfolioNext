@@ -1,12 +1,12 @@
-import projImg1 from "./indiabiztimes.png";
-import projImg2 from "./educred.png";
-import projImg3 from "./googlepay.png";
-import projImg4 from "./qr.png";
-import projImg5 from "./weatherForecast.png";
-import projImg6 from "./pincode.png";
-// import colorSharp2 from "./color-sharp2.png";
-import ChatBot from "./Chatbot.png";
-import Dummy from "./dummy.jpg"
+import projImg1 from "../../../../public/assets/indiabiztimes.png";
+import projImg2 from "../../../../public/assets/educred.png";
+import projImg3 from "../../../../public/assets/googlepay.png";
+import projImg4 from "../../../../public/assets/qr.png";
+import projImg5 from "../../../../public/assets/weatherForecast.png";
+import projImg6 from "../../../../public/assets/pincode.png";
+// import colorSharp2 from "../../../../public/assets/color-sharp2.png";
+import ChatBot from "../../../../public/assets/Chatbot.png";
+import Dummy from "../../../../public/assets/dummy.jpg"
 export const Projects = [
     {
         id: 0,

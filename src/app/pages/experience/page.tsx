@@ -3,10 +3,9 @@ import React from 'react';
 import Navbar from '@/components/NavBar';
 import Image from 'next/image';
 import colorSharp from '../../assets/color-sharp.png';
-import Rewardwise from '../../assets/logo.png';
-// import 'animate.css';
+import Rewardwise from '../../../../public/assets/logo.png';
 
-const ExperiencePage = () => {
+export default function ExperiencePage() {
     const tags = ["React", "Node.js", "AWS", "Django", "React Native"];
 
     return (
@@ -61,5 +60,3 @@ const ExperiencePage = () => {
         </div>
     );
 };
-
-export default ExperiencePage;
